@@ -1,7 +1,7 @@
 <div>
     <div class="relative bg-black/89 text-white mt-50 pt-35">
 
-        <div class="absolute -top-70 bottom-72 left-0 w-full p-6 md:p-20">
+        <div class="relative md:absolute  md:-top-70 bottom-72 left-0 w-full p-6 md:p-20">
             <div class="bg-white border border-gray-300 rounded-2xl shadow-md p-16 flex flex-col md:flex-row items-center md:items-start">
                 <div>
                     <h2 class="text-3xl text-black font-bold">Join <span class="  text-orange-400/90">Jeddah Bronco Team</span></h2>
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <footer class=" text-white pt-30">
+        <footer class=" text-white pt-0 md:pt-30">
             <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between">
                 <div class="md:w-1/2">
                     <img src="{{Vite::asset('resources/images/logo-white.png')}}" class="w-54 h-20 px-4 mt-3 mb-3 ">
